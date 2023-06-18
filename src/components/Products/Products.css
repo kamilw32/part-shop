@@ -1,0 +1,30 @@
+.galleryflex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .galleryflex2 > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 50px;
+  }
+  
+  @media (min-width: 768px) {
+    .galleryflex2 > div > div {
+      width: calc(50% - 20px);
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .galleryflex2 > div > div {
+      width: calc(50% - 30px);
+      margin-bottom: 50px;
+    }
+  }
+  

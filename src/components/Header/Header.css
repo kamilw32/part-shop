@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bggray{
+    background-color: rgb(32, 32, 32);
+}
+
+header a {
+    margin-top: 0 !important;
+}
+p1 {
+    max-width: 10%;
+
+    
+}
+header{
+    max-height: 100px;
+
+}
